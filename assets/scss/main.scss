@@ -1,0 +1,9 @@
+@import 'variables/colors';
+@import 'layout/sidebar';
+@import 'components/buttons';
+@import 'components/icons';
+
+body{
+    background-color: $bodybg;
+    
+}

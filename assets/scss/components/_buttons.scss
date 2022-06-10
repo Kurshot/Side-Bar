@@ -1,0 +1,35 @@
+.hamburgerBtn{
+    background-color: $sidebarbg;
+    border: none;
+    border-radius: 30%;
+    height: 40px;
+    width: 30px;
+    padding-left: 10px;
+    &:hover{
+        background-color: $buttonclickedcolor;
+    }
+}
+
+.sidebarBtn{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    display: block;
+    background-color: $sidebarbg;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    &:hover{
+        background-color: $buttonclickedcolor;
+    }
+}
+
+.selectedBtn{
+    background-color: $buttonclickedcolor;
+    & > i{
+        color: $iconclickedcolor;
+    }
+}
